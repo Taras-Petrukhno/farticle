@@ -1,0 +1,41 @@
+.form-info {
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-info__title {
+    margin-bottom: 5px;
+}
+.form-info__input {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.form-info__sibmit {
+    padding: 0.8em;
+    background-color: rgba(6, 170, 72, 1);
+    color: white;
+    border: 1px solid silver;
+    border-radius:3px;
+    cursor: pointer;
+    transition: scale 0.2s;
+    font-weight: 700;
+}
+.form-info__sibmit:hover {
+    scale: 1.02
+}
+
+.form-info__errors {
+    text-align: center;
+    font-size: 12px;
+    line-height: 105%;
+    color: red;
+}
+.iti {
+    width: 100%;
+    display: block;
+  }
